@@ -1,0 +1,48 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+	background: url("./pictures/back4.jpg");
+}
+
+
+fieldset{
+	width: 40%;
+	padding: 2% 3% 3% 3%;
+	border: 2px solid #a2a2a2;
+	border-radius: 5px;
+	position: absolute;
+	top: 30px;
+	left: 400px;
+	background-color: rgba(0,0,0,0.5);
+}
+fieldset p{
+	color:white;
+}
+
+
+legend{
+	background-color: #eeeeee;
+	border-radius: 100%;
+	opacity: 0.9;
+	padding: 20px 20px 20px 0px;
+}
+
+input[type=submit]{
+	background-color: #6b3d12;
+	color: white;
+	padding: 7px 17px;
+	font-size: 15px;
+	width: 90%;
+	border: 1px solid #a2a2a2;
+}
+input[type=email], input[type=password], input[type=text]{
+	width: 90%;
+	border-radius: 2px;
+	color: black;
+	padding: 5px 10px;
+	border: 1px solid #a2a2a2;
+	background-color: white;
+
+
+}

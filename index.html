@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dawuro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="dawuro.png" />
+	<!--  bootsrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dawuroStyle.css">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+</head>
+<body>
+    <nav class="navbar navbar-default"  class="navbar navbar" style="background-color: #ffffff;">
+      <div class="container-fluid" id="mainnav">
+        <div class="navbar-header" id="leftlogo">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="index.html"> <img src="dawuro.png" id="logoImg" style="display:inline, height: 30px; width: 30px; margin-right: 10px" align="left" >D A W U R O</a>
+        </div>
+        <div class="collapse navbar-collapse" id="rightnav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="notice.html">Notices</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+</nav>
+<div id="eventcarousel" class="carousel slide" data-ride="carousel">
+	<div class="row">
+		<div class="sm-8">
+			<img src="daw.jpg">
+		</div>
+			
+		<div class="sm-4">
+			<h3>Event Details</h3>
+			<p>Title: <span></span></p>
+			<p>Category: <span></span></p>
+			<p>Date: <span></span></p>
+			<p>Time: <span></span></p>
+			<p>Venue: </p>
+			<p>Sender: <span></span></p>
+			<p>Description: </p>
+		</div>
+	</div>
+	<div class="container text-center">
+        <button> View Events <i class="fa fa-eye" aria-hidden="true"></i></button>
+        <button> Add Event <i class="fa fa-plus" aria-hidden="true"></i></button>		
+	</div>
+	
+</div>
+<footer class="row text-center">
+	<div class="col-sm-4" id="subscribe">
+		<p>Subscribe to our Newsletter</p>
+		<div class="input-group">
+	         <input type="email" class="form-control" placeholder="Enter your email">
+	         <span class="input-group-btn">
+	         <button class="btn btn-theme" type="submit" style="border-radius: 0 10px 10px 0;background: #243c4f;color: #fff;" onclick="subscribe()">Subscribe</button>
+	         </span>
+	    </div>
+
+		
+	</div>
+	<div class="col-sm-4" id="socialmedia">
+		<h4>Follow us on Social media</h4>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+		
+	</div>
+	<div class="col-sm-4" id="copyright">
+		<p>Copyright 2018@Dawuro</p>
+            <p><a href="http://ashesi.edu.gh">
+             D A W U R O</a></p>
+		
+	</div>
+</footer>
+
+</body>
+
+</html>

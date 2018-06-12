@@ -1,0 +1,126 @@
+body, div, p, h1, h2, h3, h4, h5, .navbar{
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+	overflow-x: hidden;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body{
+	width: 100%;
+}
+
+.navbar{
+  align-content: right;
+  color: #000000;
+}
+#mainnav{
+	width: 100%;
+}
+#leftlogo{
+	width: 30%;
+	float: left;
+}
+#rightnav{
+	width: 70%;
+	float: left;
+}
+ul li{
+	color: #000000;
+	font-size: 20px;
+	font-family:mc comic sans;
+	font-style: bold;
+
+}
+
+footer{
+	background-color:#362d26;
+	color: #ffffff;
+/*	width: 100%;*/
+}
+
+.slide img{
+	width: 100%;
+}
+
+.sm-8 img{
+	height: 530px;
+}
+
+.sm-8{
+	width: 80%;
+	float: left;
+}
+
+.sm-4{
+	width: 20%;
+	float: left;
+	background-color: #262626;
+	color: white;
+	height: 530px;
+	padding: 1% 20px 1% 20px;
+	overflow: auto;
+	line-height: 30px;
+}
+
+.sm-4 h3{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.container{
+	margin-top: -32px;
+}
+
+.container button{
+	padding: 5px 20px;
+	background-color: white;
+	border: 1px solid #262626;
+	margin: 0px 20px;
+}
+#content{
+    background-color: #200C0C;
+    height: 555px;
+}
+#compDes{
+    margin-top: 17px;
+    width:1000px;
+    height: 525px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#daw-image{
+    border-radius: 5px;
+    width: 450px;
+    height: 400px;
+    float:left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#logo{
+    width:400px;
+    height: 370px;
+}
+#textDesc{
+    border-radius: 5px;
+    width: 450px;
+    height: 400px;
+    float:right;
+    margin-right: 30px;
+}
+#info{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 60px;
+    font-family:serif;   
+}
+#quest{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family:fantasy;   
+}
+
+div.backcontact{
+	color: #ffffff;
+	background-color: #200C0C;
+}

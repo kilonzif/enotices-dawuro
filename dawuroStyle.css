@@ -1,0 +1,110 @@
+body, div, p, h1, h2, h3, h4, h5, .navbar{
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+	overflow-x: hidden;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body{
+	width: 100%;
+}
+
+.navbar{
+  align-content: right;
+  color: #000000;
+}
+#mainnav{
+	width: 100%;
+}
+#leftlogo{
+	width: 30%;
+	float: left;
+}
+#rightnav{
+	width: 70%;
+	float: left;
+}
+ul li{
+	color: #000000;
+	font-size: 20px;
+	font-family:mc comic sans;
+	font-style: bold;
+
+}
+
+footer{
+	background-color:#362d26;
+	color: #ffffff;
+	height: 80px;
+/*	width: 100%;*/
+}
+
+.slide img{
+	width: 100%;
+}
+
+.sm-8 img{
+	height: 530px;
+}
+
+.sm-8{
+	width: 80%;
+	float: left;
+}
+
+.sm-4{
+	width: 20%;
+	float: left;
+	background-color: #262626;
+	color: white;
+	height: 530px;
+	padding: 1% 20px 1% 20px;
+	overflow: auto;
+	line-height: 30px;
+}
+
+.sm-4 h3{
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.container{
+	margin-top: -32px;
+}
+
+.container button{
+	padding: 5px 20px;
+	background-color: white;
+	border: 1px solid #262626;
+	margin: 0px 20px;
+}
+
+.form-group input, .form-group textarea, .form-group select{
+	width: 300px;
+}
+
+.form-group{
+	position: absolute;
+	top: 90px;
+	left: 500px;
+}
+
+.form-group input[type=submit]{
+	padding: 7px 20px;
+	background-color: #683b0d;
+	border: 1px solid #e2e2e2;
+	color: white;
+}
+
+#rightside{
+	float: right;
+	margin-left: 10%;
+	width: 80%;
+}
+
+#rightside input{
+	margin-left: 20px;
+}
+
+
